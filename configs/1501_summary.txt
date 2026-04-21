@@ -1,0 +1,12 @@
+Experiment: ETTh1_96_96_notrackbase_pool_nocurr_nogate_rerun_0421
+Model file: ./models/model_dual_notrackbase_pool_nocurr_nogate.py
+Base file: ./models/model_dual_notrackbase_nopool_nocurr_nogate.py
+Change: restore SelectiveBridge causal average pooling, keep notrackbase + nocurriculum + nogate
+
+Result:
+- Final checkpoint selected by vali_mse: 0.701225
+- Final Test MSE: 0.368916
+- Final Test MAE: 0.391178
+
+Saved training directory:
+- ./checkpoints/1501_ETTh1_96_96_notrackbase_pool_nocurr_nogate_rerun_0421_BALM_MedualTime_model_dual_ETTh1_ftM_sl96_pl96_0
